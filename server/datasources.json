@@ -1,0 +1,8 @@
+{
+  "sdk": {
+    "host":"localhost",
+    "port":27017,
+    "database":"sdk",
+    "connector":"mongodb"
+  }
+}

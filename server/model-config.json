@@ -1,0 +1,42 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "sdk"
+  },
+  "AccessToken": {
+    "dataSource": "sdk",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "sdk",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "sdk",
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
+  },
+  "Role": {
+    "dataSource": "sdk",
+    "public": false
+  },
+  "board": {
+    "dataSource": "sdk",
+    "public": true
+  }
+}
